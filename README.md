@@ -21,9 +21,7 @@ including title, content, publication date, and source URL.
   Utilize NLTK to classify each article into the provided categories.
 * Update the database with the assigned category for each article.
 ## Streamlit Application
-* Develop a user-friendly Streamlit application to display the categorized news articles.
-* Implement features for users to filter articles by category and search for specific topics.
-* Ensure the application updates dynamically with new articles as they are processed.
+* Develop a user-friendly Streamlit application to migrate the categorized news articles to sql database.
 ## Logging and Error Handling:
 * Implement proper logging throughout the application to track events and potential
 errors.
