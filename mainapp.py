@@ -48,7 +48,7 @@ def process_rss_feed(self, rss_url):
         df = pd.DataFrame(entries)
 
         # SQL connection
-        conn = mysql.connector.connect(host="localhost", user="root", password="kavi", database="NEWS_RSS")
+        conn = mysql.connector.connect(host="localhost", user="", password="", database="NEWS_RSS")
         cursor = conn.cursor()
 
         # Create table if it does not exist
